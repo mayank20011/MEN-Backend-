@@ -2,13 +2,20 @@
   "name": "express-mondodb-nodejs",
   "version": "1.0.0",
   "description": "Learning Backend and Installing npm to manage node modules",
-  "main": "index2.js",
+  "main": "index.js",
+  "type":"module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js",
+    "nodemonstart":"nodemon index.js"
   },
   "author": "Mayank",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
