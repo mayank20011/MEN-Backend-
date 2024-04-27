@@ -8,3 +8,11 @@ console.log(`sum of Each Element from Array is: ${sum(...a)} and product is : ${
 console.log('Hello, Whaat is your name?');
 const server=express();
 server.listen(3000);
+
+var [filepath, nodepath, ...commandlinearguments]=process.argv;
+const newarray=commandlinearguments.map((a)=>
+{
+  return parseInt(a);
+});
+
+console.log(sum(...newarray));
