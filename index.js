@@ -1,21 +1,7 @@
-import {sum,diff} from './lib.js';
+import {sum,diff,product} from './lib.js';
 
-// const lib=require('./lib.js');
-// lib is a object
+let a=[1,2,3,4,5,6,7,8,9,10];
 
-const a=10;
-const b=20;
-
-function dif(a=0,b=0)
-{
-  return a-b;
-}
-
-console.log("Hello From NodeJs");
-
-console.log(dif(a,b));
-// console.log(lib.sum(a,b))
-// console.log(sum(a,b));
+console.log(`sum of Each Element from Array is: ${sum(...a)} and product is : ${product(...a)} and difference is: ${diff(...a)}`);
 
 
-console.log(`sum of 50, 55 is : ${sum(50,55)} and differnce is ${diff(50,55)}`);
