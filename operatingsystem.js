@@ -30,3 +30,7 @@ console.log(os.cpus());
 
 console.log(`Available free memory in system is ${os.freemem()/1000000000} GigaBytes`);
 // Returns the amount of free system memory in bytes as an intege
+
+
+console.log(`System was up from last :${parseInt(os.uptime()/3600)} hours and ${((os.uptime()/3600)-parseInt(os.uptime()/3600))*60} minutes`);
+// Returns the system uptime in number of seconds.
