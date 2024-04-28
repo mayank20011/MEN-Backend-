@@ -30,3 +30,7 @@ console.log(os.cpus());
 
 console.log(`Available free memory in system is ${os.freemem()/1000000000} GigaBytes`);
 // Returns the amount of free system memory in bytes as an intege
+
+
+
+// hello
