@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Learning Backend and Installing npm to manage node modules",
   "main": "index.js",
-  "type": "module",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index2.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js",
+    "nodemonstart":"nodemon index.js"
   },
   "author": "Mayank",
   "license": "ISC",
