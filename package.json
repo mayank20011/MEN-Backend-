@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "nodemonstart":"nodemon index.js",
-    "nodemonindex2":"nodemon index2.js"
+    "nodemonindex2":"nodemon index2.js",
+    "nodemonroute":"nodemon route.js",
+    "nodemonserverrender":"nodemon server_side_rendering.js"
   },
   "author": "Mayank",
   "license": "ISC",
