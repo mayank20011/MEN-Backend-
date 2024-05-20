@@ -6,14 +6,19 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "nodemonstart":"nodemon webserver.js"
+    "start": "node expressserver.js",
+    "nodemonstart": "nodemon webserver.js",
+    "nodemonexpressserver": "nodemon expressserver.js",
+    "nodemonexpress2": "nodemon expressserver2.js",
+    "nodemonhelloworld": "nodemon 1_helloworld.js",
+    "nodemonmiddlewaretypes": "nodemon 2_typesofmiddleware.js"
   },
   "author": "Mayank",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
