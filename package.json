@@ -11,12 +11,16 @@
     "nodemonexpressserver": "nodemon expressserver.js",
     "nodemonexpress2": "nodemon expressserver2.js",
     "nodemonhelloworld": "nodemon 1_helloworld.js",
-    "nodemonmiddlewaretypes": "nodemon 2_typesofmiddleware.js"
+    "nodemonmiddlewaretypes": "nodemon 2_typesofmiddleware.js",
+    "3_restapi.js": "nodemon 3_restapi.js",
+    "4_mvc.js": "nodemon 4_mvc.js",
+    "5_router.js": "nodemon 5_router.js"
   },
   "author": "Mayank",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "morgan": "^1.10.0"
   },

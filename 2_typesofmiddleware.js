@@ -14,8 +14,8 @@
 
 import express from "express";
 import * as fs from "node:fs";
-const jsondata=fs.readFileSync("Dummydata.json",'utf16le');
-
+const jsondata=fs.readFileSync("Dummydata.json",'utf8');
+console.log(jsondata);
 const server=express();
 const auth =(req,res,next)=>
 {
